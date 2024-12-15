@@ -5,7 +5,9 @@ public class Main {
 
 
   //Create 3 drink objects that cost less than $5
-  
+        Drink drink1 = new Drink("Water", 3.50, false, false);
+        Drink drink2 = new Drink("Lemonade", 4.00, true, false);
+        Drink drink3 = new Drink("Arizona", 0.99, true, false);
   //***TEST YOUR CODE BY PRINTING THE NAME OF YOUR DRINK TO MAKE SURE IT WORKS***//
   
   //Create 2 drink objects that cost more than $5
